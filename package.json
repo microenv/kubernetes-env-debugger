@@ -1,0 +1,12 @@
+{
+  "name": "kubernetes-env-debugger",
+  "version": "1.0.0",
+  "description": "Kubernetes deployment and service to show all kubernetes environment variables in the browser",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "giovanneafonso at gmail",
+  "license": "MIT",
+  "dependencies": {}
+}
