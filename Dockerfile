@@ -1,9 +1,6 @@
 FROM node:alpine
-RUN mkdir /code
-WORKDIR /code
-COPY package.json ./
-RUN npm install
-COPY . .
-RUN rm -f package-lock.json
-EXPOSE 3000
+COPY . /app
+WORKDIR /app
+# RUN npm install
+EXPOSE 80
 CMD [ "npm", "start" ]
