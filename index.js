@@ -1,7 +1,7 @@
 const http = require('http');
 
 const name = process.env.NAME || 'kubernetes-env-debugger';
-const port = process.env.PORT || '3000';
+const port = process.env.PORT || '80';
 
 const app = new http.Server();
 
