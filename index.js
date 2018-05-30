@@ -1,6 +1,6 @@
 const http = require('http');
 
-const name = process.env.NAME || 'node-enver';
+const name = process.env.NAME || 'kubernetes-env-debugger';
 const port = process.env.PORT || '3000';
 
 const app = new http.Server();
